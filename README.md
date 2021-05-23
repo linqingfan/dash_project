@@ -1,4 +1,6 @@
 # dash_project
+![Alt text](covid.png?raw=true "Example Covid 19")
+
 ## Setting up Dash User Management
 First download the template source:
 ```
