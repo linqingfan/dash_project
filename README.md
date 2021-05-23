@@ -9,9 +9,10 @@ sudo pip3 install flask_login sqlalchemy flask_sqlalchemy PyMySQL
 ```
 
 Edit the following file config.txt:
+```
 [database]
 con = mysql+pymysql://user:password@localhost/database_name
-
+````
 Create a database in mysql with the following command:
 ```mysql
 CREATE DATABASE tgdata_db;
