@@ -83,7 +83,7 @@ Goto main page to login http://localhost:8050
 Add dash codes in views/page1.py and views/page2.php
 
 ## Modifications to views/page1.py to include an analysis of covid 19 data:
-Hx has slighly modified some other codes from the web and embed in page1.py:
+Hx has slighly modified some other codes from the web and embed in page1.py. The resulting graph is shown above at the beginning of this page:
 ```python
 # Dash packages
 import dash_bootstrap_components as dbc
