@@ -1,9 +1,12 @@
 # dash_project
+First download the template source:
+```
 git clone https://github.com/Chris3691/Dash-User-Management
-
+```
 Already installed the required python packages with the following:
+```
 sudo pip3 install flask_login sqlalchemy flask_sqlalchemy PyMySQL
-
+```
 
 Edit the following file config.txt:
 [database]
@@ -28,8 +31,9 @@ CREATE TABLE `user` (
 ```
 
 Edit the file users_mgt.py:
+```
 password = db.Column(db.String(80)) -> password = db.Column(db.String(88))
-
+```
 Either you use Mysql command to create the first admin user account or Edit the file index.py to create admin access to create first admin user:
 Original Code:
 ```python
