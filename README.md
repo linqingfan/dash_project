@@ -71,6 +71,12 @@ Execute the python script:
 ```
  python3 index.py
  ```
+ or execute it in the background:
+ 
+ ```
+ nohup python3 index.py &
+ ```
+ 
 Fire up browser and use the address http://localhost:8050/admin
 
 Create the admin account and change back the code in index.py:
