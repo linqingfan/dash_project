@@ -59,6 +59,10 @@ Modified code (temporary) to create admin user:
         else:
             return login.layout
 ```
+Execute the python script:
+```
+ python3 index.py
+ ```
 Fire up browser and use the address http://localhost:8050/admin
 
 Create the admin account and change back the code in index.py:
