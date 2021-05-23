@@ -41,7 +41,7 @@ Original Code:
                 return error.layout
         else:
             return login.layout
-```python
+```
 Modified code (temporary) to create admin user:
 ```python
     if pathname == '/admin':
