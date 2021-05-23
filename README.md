@@ -73,4 +73,4 @@ Create the admin account and change back the code in index.py:
 ```
 Goto main page to login http://localhost:8050
 
-Add dash codes in views/page1.py and views/page2
+Add dash codes in views/page1.py and views/page2.php
