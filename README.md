@@ -78,7 +78,7 @@ Add dash codes in views/page1.py and views/page2.php
 
 ## Modifications to views/page1.py to include an analysis of covid 19 data:
 Hx has slighly modified some other codes from the web and embed in page1.py:
-```
+```python
 # Dash packages
 import dash_bootstrap_components as dbc
 import dash_html_components as html
