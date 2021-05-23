@@ -34,11 +34,11 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 ```
 Edit index.py to allow remote access (assume port has been allowed to access):
-'''
+```
 Change the following line:
 
 app.run_server(debug=True) -> app.run_server(host='0.0.0.0',debug=True)
-'''
+```
 
 Edit the file users_mgt.py:
 ```
