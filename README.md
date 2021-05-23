@@ -1,4 +1,4 @@
-# dash_project
+# Template for Login Page on Dash/Plotly platform
 ![Alt text](https://github.com/linqingfan/dash_project/blob/main/covid19.png?raw=true "Example Covid 19")
 
 ## Setting up Dash User Management
