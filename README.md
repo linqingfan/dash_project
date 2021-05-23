@@ -58,3 +58,16 @@ Modified code (temporary) to create admin user:
         else:
             return login.layout
 ```
+Fire up browser and use the address http://localhost:8050/admin
+
+Create the admin account and change back the code in index.py:
+```python
+    if pathname == '/admin':
+        if current_user.is_authenticated:
+            if current_user.admin == 1:
+                return user_admin.layout
+            else:
+                return error.layout
+        else:
+            return login.layout
+```
