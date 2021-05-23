@@ -10,7 +10,7 @@ Edit the following file config.txt:
 con = mysql+pymysql://user:password@localhost/database_name
 
 Create a database in mysql with the following command:
-
+```mysql
 CREATE DATABASE tgdata_db;
 USE tgdata_db;
 #Note password size has been changed to 88
@@ -25,7 +25,7 @@ CREATE TABLE `user` (
   UNIQUE KEY `username_UNIQUE` (`username`),
   UNIQUE KEY `email_UNIQUE` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
-
+```
 
 Edit the file users_mgt.py:
 password = db.Column(db.String(80)) -> password = db.Column(db.String(88))
