@@ -123,7 +123,7 @@ colors = {
 # Reading The Dataset 
 
 #data = pd.read_csv('https://gist.githubusercontent.com/ThiagoFPMR/fea32b8082a54889ba7470ac63252299/raw/aea145700257ffa89d924073189a0e3804bd987c/covid_worldwide.csv')
-data = pd.read_csv(covid_worldwide.csv)
+data = pd.read_csv('covid_worldwide.csv')
 
 def scatter_y_label (var):
   if var == 'total_cases':
