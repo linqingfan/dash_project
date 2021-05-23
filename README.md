@@ -1,5 +1,5 @@
 # dash_project
-![Alt text](covid.png?raw=true "Example Covid 19")
+![Alt text](https://https://github.com/linqingfan/dash_project/blob/main/covid.png?raw=true "Example Covid 19")
 
 ## Setting up Dash User Management
 First download the template source:
