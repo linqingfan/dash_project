@@ -8,7 +8,7 @@ git clone https://github.com/Chris3691/Dash-User-Management
 ```
 Already installed the required python packages with the following:
 ```
-sudo pip3 install flask_login sqlalchemy flask_sqlalchemy PyMySQL
+sudo pip3 install flask_login sqlalchemy flask_sqlalchemy PyMySQL dash_bootstrap_components pandas
 ```
 
 Edit the following file config.txt:
@@ -33,6 +33,12 @@ CREATE TABLE `user` (
   UNIQUE KEY `email_UNIQUE` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 ```
+Edit index.py to allow remote access (assume port has been allowed to access):
+'''
+Change the following line:
+
+app.run_server(debug=True) -> app.run_server(host='0.0.0.0',debug=True)
+'''
 
 Edit the file users_mgt.py:
 ```
