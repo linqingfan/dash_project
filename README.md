@@ -71,3 +71,6 @@ Create the admin account and change back the code in index.py:
         else:
             return login.layout
 ```
+Goto main page to login http://localhost:8050
+
+Add 
