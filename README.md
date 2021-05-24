@@ -276,5 +276,5 @@ Generate SSL certificates, rename the local cert/key to local.crt and local.key
 replace the app.run_server code in index.py with:
 ```python
 context = ('local.crt','local.key')
-app.run_server(host='0.0.0.0',ssl_context=ssl_context=context,debug=True)
+app.run_server(host='tgone.org',ssl_context=ssl_context=context,debug=True)
 ```
