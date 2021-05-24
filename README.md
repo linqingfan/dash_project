@@ -267,7 +267,7 @@ layout = html.Div(style={'backgroundColor': colors['background']}, children=[
       ], style = {'width':'90%','margin':'auto'})
 ])
 ```
-#Adding SSL certificate
+# Adding SSL certificate
 Install pyopenssl
 ```
 pip install pyopenssl
